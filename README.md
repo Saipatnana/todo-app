@@ -48,7 +48,7 @@ npm install
 
 To run the application in development mode:
 ```bash
-npm Start
+npm start
 ```
 Open http://localhost:3000 to view it in the browser.
 

@@ -3,7 +3,7 @@
 This is a simple To-Do List application built with React. The application allows users to add, view, edit, and delete tasks. It also includes features like marking tasks as completed and saving tasks to local storage to maintain persistence across page reloads.
 
 ![Todos app Preview](https://res.cloudinary.com/dxcob4mbd/image/upload/v1720018065/y6jarnq7ghy2mrnx3n0c.png)
-![Todos app Preview in tasks](https://res.cloudinary.com/dxcob4mbd/image/upload/v1720018065/pu2esyuvkjauhrbctmsf.png)
+![Todos app Preview with tasks](https://res.cloudinary.com/dxcob4mbd/image/upload/v1720018065/pu2esyuvkjauhrbctmsf.png)
 
 ## Features
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import TaskInput from "./components/TaskInput";
 import TaskList from "./components/TaskList";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { v4 as uuidv4 } from 'uuid';
 import "./App.css";
 
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
 
   // Function to add a new task
   const addTask = (text) => {
-    setTasks([...tasks, { id: Date.now(), text, completed: false }]);
+    setTasks([...tasks, { id: uuidv4(), text, completed: false }]);
   };
 
   // Function to delete a task
@@ -43,7 +44,7 @@ const App = () => {
 
   return (
     <div className="backgound">
-      <div className="container bg-white p-5 rounded-4 mb-auto mt-5">
+      <div className="container bg-white p-5 rounded-4 mb-auto mt-5 m-sm-20 m-20">
         <h1 className="text-center mb-4">Todos</h1>
         <TaskInput addTask={addTask} />
         <TaskList
